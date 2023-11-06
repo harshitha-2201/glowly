@@ -1,0 +1,114 @@
+.producths-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #eee6e6;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgb(255, 255, 255);
+    margin: 26px; /* Add margin for spacing between cards */
+    width: 30%; /* Set a fixed width for each card */
+    height: 500px; /* Limit the card height for consistency */
+    overflow: hidden; /* Hide any overflowing content */
+    background-color : #f2e8e4;
+    border-radius : 20px;
+
+
+  }
+  
+  .pro-img {
+    width: 100%;
+    height: 320px; /* Limit the image height for consistency */
+    border-radius : 50px;
+
+  }
+  
+  .pro-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+
+  }
+  
+
+  .tag {
+    text-align: center;
+    font-size: 30px;
+    color :rgb(169, 17, 17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+  }
+
+ .pro-details-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items:center;
+  margin: 5%;
+
+}
+.product-details{
+  display: flex;
+  padding-left: 200px;
+
+}
+.image-list{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 25%;
+ } 
+
+.product-details{
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  gap: 100px;
+}
+details{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+.selected-image img{
+  width: 75%;
+}
+.product-info{
+  margin: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.bag-btn{
+  background-color: #876d6d;
+  padding: 8px;
+  border-radius: 5px;
+  color: #eee6e6;
+}
+
+
+
+
+  @media (max-width : 768px) {
+    .producths-card{
+        margin: 60px;
+        width: 34%; 
+        height: 20%;  
+    }
+        .product-details{
+          padding-left: 30px;
+        
+        
+    }
+  }
+  @media (max-width : 678px) {
+    .producths-card{
+        margin: 60px;
+        width: 60%; 
+        height: 10%;
+    }
+
+  }
